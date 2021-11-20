@@ -1,5 +1,152 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --hover-text-color: #2196f3;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --black: #000000;
+  --white: #ffffff;
+  --secondary-bg: #f5f4fa;
+  --footer-bg: #2f303a;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
-  color: #212121;
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--white);
+}
+
+/* Лого */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: 700;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+
+  color: var(--hover-text-color);
+}
+
+.logo:hover,
+.logo:focus {
+}
+
+.logo-black {
+  color: var(--black);
+}
+
+/* Навигация */
+
+.site-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--hover-text-color);
+}
+
+/* Авторизация */
+
+.aut-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.aut-nav a:hover,
+.aut-nav a:focus {
+  color: var(--hover-text-color);
+}
+
+/* Шапка */
+
+.hero {
+  background-color: var(--footer-bg);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+/* Cекции */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--title-text-color);
+}
+
+.peculiarities-list h3 {
+  font-style: 400;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+
+.team-list {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-list h3 {
+  font-weight: 500;
+  color: var(--title-text-color);
+}
+
+/* Подвал */
+
+.footer {
+  background-color: var(--footer-bg);
+}
+
+.logo-white {
+  color: var(--white);
+}
+
+.addres {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--footer-text-color);
+}
+
+.map {
+  color: var(--white);
+}
+
+.addres a:hover,
+.addres a:focus {
+  color: var(--hover-text-color);
 }
