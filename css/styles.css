@@ -101,7 +101,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--hover-text-color);
+  color: var(--title-text-color);
   background-color: var(--white);
 }
 
