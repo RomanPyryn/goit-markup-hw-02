@@ -67,6 +67,10 @@ body {
   color: var(--hover-text-color);
 }
 
+.site-nav .current {
+  color: var(--hover-text-color);
+}
+
 /* Шапка */
 
 .hero {
