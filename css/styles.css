@@ -43,31 +43,23 @@ body {
   color: var(--black);
 }
 
-/* Навигация */
+/* Навигация и авторизация */
 
-.site-nav a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: var(--title-text-color);
-}
-
-.site-nav a:hover,
-.site-nav a:focus {
-  color: var(--hover-text-color);
-}
-
-/* Авторизация */
-
+.site-nav a,
 .aut-nav a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
+.aut-nav a {
+  color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
 .aut-nav a:hover,
 .aut-nav a:focus {
   color: var(--hover-text-color);
