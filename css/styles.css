@@ -19,6 +19,7 @@ a {
 }
 
 body {
+  font-family: Raleway, sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
@@ -30,17 +31,12 @@ body {
 /* Лого */
 
 .logo {
-  font-family: Raleway, sans-serif;
-  font-style: 700;
-  font-weight: bold;
+  font-family: Raleway;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 
   color: var(--hover-text-color);
-}
-
-.logo:hover,
-.logo:focus {
 }
 
 .logo-black {
@@ -105,8 +101,7 @@ body {
 }
 
 .peculiarities-list h3 {
-  font-style: 400;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -114,7 +109,12 @@ body {
   color: var(--title-text-color);
 }
 
+.team {
+  background-color: var(--secondary-bg);
+}
+
 .team-list {
+  background-color: var(--white);
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -126,6 +126,16 @@ body {
 }
 
 /* Портфолио */
+
+.button {
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--hover-text-color);
+  color: var(--white);
+}
 
 .projects-list {
   font-size: 16px;
@@ -150,7 +160,8 @@ body {
   color: var(--white);
 }
 
-.addres {
+.address {
+  font-style: normal;
   color: var(--footer-text-color);
 }
 
@@ -158,7 +169,7 @@ body {
   color: var(--white);
 }
 
-.addres a:hover,
-.addres a:focus {
+.address a:hover,
+.address a:focus {
   color: var(--hover-text-color);
 }
