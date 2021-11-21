@@ -24,6 +24,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
   background-color: var(--white);
 }
@@ -51,6 +52,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: var(--title-text-color);
 }
 
@@ -78,7 +80,29 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: var(--white);
+}
+
+.hero-button {
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white);
+  background-color: var(--hover-text-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--hover-text-color);
+  background-color: var(--white);
 }
 
 /* Cекции */
@@ -106,27 +130,41 @@ body {
 }
 
 .team-list {
-  background-color: var(--white);
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+
+  background-color: var(--white);
 }
 
 .team-list h3 {
   font-weight: 500;
+
   color: var(--title-text-color);
 }
 
 /* Портфолио */
 
+/* Кнопки */
+
 .button {
   cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  color: var(--title-text-color);
+  background-color: var(--white);
 }
+
+/* Проекти */
 
 .button:hover,
 .button:focus {
-  background-color: var(--hover-text-color);
   color: var(--white);
+  background-color: var(--hover-text-color);
 }
 
 .projects-list {
@@ -139,6 +177,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
   color: var(--title-text-color);
 }
 
@@ -154,6 +193,7 @@ body {
 
 .address {
   font-style: normal;
+
   color: var(--footer-text-color);
 }
 
